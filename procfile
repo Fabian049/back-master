@@ -1,1 +1,1 @@
-web: gunicorn BACK-MASTER.wsgi
+web: gunicorn back-master.wsgi
