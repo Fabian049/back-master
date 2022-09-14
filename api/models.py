@@ -13,8 +13,7 @@ class Modalidad(models.Model):
     nombre = models.CharField(max_length=50)
 
 class Reports(models.Model):
-    dia= models.DateField()
-    hora= models.TimeField()
+    fecha= models.DateTimeField(null=True, blank=True)
     descripcion = models.CharField(max_length=150)
     titulo= models.CharField(max_length=50, null=True, blank=True)
     lat = models.DecimalField(max_digits=10, decimal_places=6)

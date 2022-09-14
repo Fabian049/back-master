@@ -5,4 +5,4 @@ class ReportSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Reports
-        fields = ["dia","hora","descripcion","titulo","lat","lng","modalidad"]
+        fields = ["fecha","descripcion","titulo","lat","lng","modalidad"]
